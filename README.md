@@ -1,5 +1,9 @@
 # URC-dataset
-Underwater real capture dataset (URC dataset)
-We constructed datasets A and B by selecting underwater videos from video websites intercepting the images according to certain frames and manually selecting clear and blurred images. The underwater images are enhanced using CycleGAN's feature of transforming the images with only non-imaging pairs. 
+Underwater real capture dataset (URC dataset): We constructed datasets A and B by selecting underwater videos from video websites intercepting the images according to certain frames and manually selecting clear and blurred images. The underwater images are enhanced using CycleGAN's feature of transforming the images with only non-imaging pairs. 
+The clear images in the UIEB dataset are generated from blurred images using a single image enhancement model, introducing certain artificial elements. As a result, they differ from real underwater clear images in terms of detailed image features, realism, and human perception.
+In order to reduce the influence of the artificial effects, we obtained a large number of original underwater videos from Youtube and other video websites. Captured and filtered them every 50 frames to obtain a total of 765 clear and 2,188 blurry images to create the URC dataset.
+Due to the fewer clear images selected, we flipped horizontally and vertically for the clear images in the URC dataset, while only flipped horizontally for the blurry images. After further selection of the expanded dataset, 2004 clear images and 2389 blurry images were obtained, and the training set and test set were also divided according to 7:3.
+Some images of the URC dataset are shown in the figure below. The figure shows that both blurry and clear images in the dataset contain half and full-frame images of reefs, small object target clusters, and multiple targets. Blurry images are mostly greenish and have low contrast. Clear images have higher contrast and a more acceptable image colour style. 
+
 ![image](https://github.com/bakee88/URC-dataset/blob/main/Database%20Thumbnails.png)
 The dataset link is below:https://drive.google.com/drive/folders/1NPlRJh_AG8dBySKtaFuc7DHBJRkLx9fB?usp=sharing
