@@ -6,4 +6,4 @@ Due to the fewer clear images selected, we flipped horizontally and vertically f
 Some images of the URC dataset are shown in the figure below. The figure shows that both blurry and clear images in the dataset contain half and full-frame images of reefs, small object target clusters, and multiple targets. Blurry images are mostly greenish and have low contrast. Clear images have higher contrast and a more acceptable image colour style. 
 
 ![image](https://github.com/bakee88/URC-dataset/blob/main/Database%20Thumbnails.png)
-The dataset link is below:https://drive.google.com/drive/folders/1NPlRJh_AG8dBySKtaFuc7DHBJRkLx9fB?usp=sharing
+The dataset link is below:https://drive.google.com/drive/folders/1v_JPaqP-VNrhGwOIeEBsk7SHpkv1B1Oa?usp=drive_link
